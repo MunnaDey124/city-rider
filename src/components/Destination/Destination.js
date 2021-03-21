@@ -1,6 +1,6 @@
-import { Button } from 'react-bootstrap';
+import { Button, FormControl, FormGroup } from 'react-bootstrap';
 import React from 'react';
-import { Col, Container, Form, Row} from 'react-bootstrap';
+import { Col, Container, Form, Row } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import Maps from '../GoogleMap/Maps';
 import header from '../../images/Bg.png';
@@ -19,16 +19,21 @@ const Destination = () => {
                             <Form.Label>Pick To</Form.Label>
                             <Form.Control type="text" placeholder="Enter area" />
                         </Form.Group>
+                        <FormGroup controlId="date" bsSize="large">
+                            <FormControl
+                                type="date"
+                            />
+                        </FormGroup>
                         <Form.Group controlId="formBasicCheckbox">
                             <Form.Check type="checkbox" label="Check me out" />
                         </Form.Group>
-                        <Button  variant="primary" type="submit">
-                            Submit
-                        </Button>
+                        <Button variant="primary" type="submit">
+                            Search
+                                </Button>
                     </Form>
                 </Col>
                 <Col sm={8}>
-                   <Maps></Maps>
+                    <Maps></Maps>
                 </Col>
 
             </Row>
