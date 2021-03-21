@@ -1,0 +1,11 @@
+.card_design{
+    padding-top: 40px;
+    padding-top: 40px;
+}
+.card_text a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.card_text a:hover{
+    color: rgb(216, 196, 12);
+}

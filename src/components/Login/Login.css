@@ -1,0 +1,16 @@
+.form_control{
+    margin-left:500px;
+    width: 500px;
+    height: 450px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.input_style{
+    border-radius: 5px;
+    text-align: center;
+}
+.button{
+    margin-top: 30px;
+    border-radius: 5px;
+}
